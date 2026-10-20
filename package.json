@@ -1,0 +1,37 @@
+{
+  "name": "network-computing",
+  "version": "0.0.1",
+  "description": "Network Computing project - Object recognization using AI",
+  "keywords": [],
+  "homepage": "https://github.com/imbobz/NetworkComputing",
+  "bugs": {
+    "url": "https://github.com/imbobz/NetworkComputing/issues"
+  },
+  "license": "",
+  "author": "",
+  "contributors": [],
+  "private": true,
+  "funding": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbobz/NetworkComputing.git"
+  },
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">= 11.0.0"
+  },
+  "workspaces": [
+    "web/application"
+  ],
+  "scripts": {
+    "web:build": "npm --workspace web/application run build",
+    "web:lint": "npm --workspace web/application run lint",
+    "web:start": "npm --workspace web/application run dev",
+    "web:test": "npm --workspace web/application run test"
+  }
+}

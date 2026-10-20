@@ -1,0 +1,48 @@
+:root {
+  color-scheme: dark;
+  --bg: #0b0d12;
+  --surface: #11141c;
+  --surface-2: #181c27;
+  --border: #252b3a;
+  --text: #e8ebf2;
+  --muted: #9aa3b2;
+  --accent: #6366f1;
+  --accent-2: #38bdf8;
+  --ok: #34d399;
+  --danger: #f87171;
+  --radius: 20px;
+
+  font-family:
+    Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  background:
+    radial-gradient(60% 40% at 50% -10%, rgb(99 102 241 / 0.18), transparent),
+    var(--bg);
+}
+
+button,
+select,
+input {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}

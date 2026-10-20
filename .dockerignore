@@ -1,0 +1,17 @@
+.idea
+.vscode
+
+.git
+.github
+assets
+**/build
+**/dist
+documentation
+**/node_modules
+.venv
+
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE.md
+**/README.md
+SECURITY.md
